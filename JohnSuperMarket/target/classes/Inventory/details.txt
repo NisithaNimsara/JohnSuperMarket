@@ -1,0 +1,21 @@
+001,Apple,Celoen,200.00,20,Beverages,2025-05-01,5,apple.jpg
+003,Chocolate Bar,Cadbury,150.50,50,Snacks,2025-07-10,20,chocolate.jpg
+004,Milk 1L,Anchor,260.75,35,Dairy,2025-07-18,10,milk.jpeg
+005,Toothpaste,Signal,200.00,40,Toiletries,2025-07-17,8,toothpaste.jpeg
+006,Bread 400g,Prima,180.00,25,Bakery,2025-07-19,10,bread.jpg
+007,Butter 250g,Raththi,375.00,15,Dairy,2025-07-15,5,butter.jpg
+008,Green Tea,Laoji,320.00,3,Beverages,2025-07-14,10,greentea.jpeg
+009,Corn Flakes,Kellogg's,690.00,18,Breakfast,2025-07-13,5,cornflakes.jpg
+010,Biscuits 500g,Maliban,240.00,50,Snacks,2025-07-12,15,biscuits.jpg
+011,Washing Powder 1kg,Surf Excel,1100.00,22,Household,2025-07-11,6,washingpowder.jpeg
+012,Bottle Water 1.5L,Kinley,90.00,100,Beverages,2025-07-10,25,water.jpg
+013,Eggs 10 Pack,Country Fresh,650.00,40,Dairy,2025-07-09,10,eggs.jpeg
+014,Hand Wash,Lifebuoy,550.00,3,Toiletries,2025-07-08,5,handwash.jpeg
+015,Cheese Slices 200g,Happy Cow,890.00,12,Dairy,2025-07-07,4,cheese.jpg
+016,Mango Juice 1L,Tropicana,330.00,20,Beverages,2025-07-06,5,juice.jpg
+017,Noodles 400g,Maggi,210.00,60,Groceries,2025-07-05,15,noodles.jpg
+018,Soap Bar 100g,Lux,120.00,70,Toiletries,2025-07-04,20,soap.jpeg
+019,Rice 5kg,Nipuna,1450.00,10,Groceries,2025-07-03,3,rice.jpeg
+020,Detergent Liquid 1L,Ariel,950.00,15,Household,2025-07-02,4,detergent.jpg
+021,Yogurt Cup 80g,Highland,95.00,75,Dairy,2025-07-01,25,yogurt.jpg
+022,Juice,Minute Maid,120.50,30,Drinks,2025-07-20,10,juice.jpeg

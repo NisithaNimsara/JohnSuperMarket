@@ -1,0 +1,39 @@
+Fresh Mart,0771234567,Colombo
+Milk 1L,Anchor,260.75,30,Dairy
+Eggs 12 Pack,Bairaha,560.00,50,Meat
+Butter 250g,LankaCow,420.00,20,Dairy
+
+Green Suppliers,0712223344,Kandy
+Apples,GreenWorld,300.00,100,Fruits
+Grapes,FreshCo,450.00,80,Fruits
+Orange Juice,Tropicana,550.00,25,Drinks
+
+Daily Foods,0765432109,Galle
+Bread Loaf,QuickBake,180.00,60,Bakery
+Yogurt Cup,Highland,120.00,90,Dairy
+Tea Pack,Heladiv,750.00,40,Beverages
+
+Healthy Harvest,0701239876,Nuwara Eliya
+Lettuce,GreenLeaf,100.00,100,Vegetables
+Carrots,FarmFresh,80.00,120,Vegetables
+Cabbage,GreenLeaf,90.00,90,Vegetables
+
+Goodwill Traders,0784563210,Matara
+Chocolate Bar,Cadbury,150.50,70,Snacks
+Wafers,Maliban,130.00,85,Snacks
+Toothpaste,Signal,210.00,50,Toiletries
+
+SuperLink Wholesale,0758881122,Negombo
+Washing Powder,Surf Excel,950.00,60,Household
+Dish Liquid,Sunlight,420.00,40,Household
+Floor Cleaner,Lysol,720.00,30,Household
+
+Nature's Basket,0723456789,Batticaloa
+Bananas,LocalFarm,150.00,120,Fruits
+Papaya,LocalFarm,200.00,90,Fruits
+Coconut Oil,NaturePure,480.00,45,Groceries
+
+FoodWorld,0791234567,Anuradhapura
+Rice 5kg,Nipuna,1200.00,70,Grains
+Dhal 1kg,IndianGold,800.00,100,Grains
+Sugar 1kg,Domino,250.00,90,Groceries

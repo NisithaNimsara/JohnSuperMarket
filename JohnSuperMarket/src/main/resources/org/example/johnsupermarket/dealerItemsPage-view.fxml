@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="645.0" prefWidth="856.0" style="-fx-background-color: #163941;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.johnsupermarket.DealerItemsPageController">
+    <children>
+        <Label layoutX="263.0" layoutY="67.0" text="Dealer's Item Page" textFill="WHITE">
+            <font>
+                <Font name="Book Antiqua" size="39.0" />
+            </font>
+        </Label>
+        <Button layoutX="710.0" layoutY="566.0" onAction="#handleExit" prefHeight="33.0" prefWidth="87.0" style="-fx-background-color: red; -fx-background-radius: 50;" text="ESC" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font></Button>
+        <Button layoutX="75.0" layoutY="566.0" onAction="#GotoHome" prefHeight="33.0" prefWidth="87.0" style="-fx-background-color: #23cd31; -fx-background-radius: 50;" text="Home" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font></Button>
+        <Label layoutX="190.0" layoutY="187.0" text="Dealer's Name" textFill="WHITE">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="OutputPanel" alignment="CENTER" layoutX="241.0" layoutY="470.0" prefHeight="56.0" prefWidth="365.0" textAlignment="CENTER" textFill="#c01818">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Label>
+        <TextField fx:id="dealerNameInput" layoutX="307.0" layoutY="187.0" prefHeight="25.0" prefWidth="208.0" />
+        <Button layoutX="531.0" layoutY="187.0" onAction="#handleSearchItems" prefHeight="25.0" prefWidth="65.0" style="-fx-background-radius: 50;" text="Search" textFill="#8125cc">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+        <TableView fx:id="itemTable" layoutX="147.0" layoutY="251.0" prefHeight="175.0" prefWidth="561.0">
+            <columns>
+                <TableColumn fx:id="itemNameCol" prefWidth="121.14288330078125" text="Item Name" />
+                <TableColumn fx:id="brandCol" prefWidth="107.42852783203125" text="Brand" />
+                <TableColumn fx:id="priceCol" prefWidth="98.28570556640625" text="Price" />
+                <TableColumn fx:id="quantityCol" prefWidth="86.85720825195312" text="Quantity" />
+                <TableColumn fx:id="categoryCol" prefWidth="137.1429443359375" text="Category" />
+            </columns>
+        </TableView>
+
+        <Button fx:id="mainButtonSDR" layoutX="564.0" layoutY="566.0" onAction="#GotoSelectDealersPage" prefHeight="33.0" prefWidth="121.0" style="-fx-background-radius: 50;" text="Select Dealers" textFill="#ff7b00">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font></Button>
+    </children>
+</AnchorPane>

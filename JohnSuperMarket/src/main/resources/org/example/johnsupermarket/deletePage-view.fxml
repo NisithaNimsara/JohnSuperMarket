@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="645.0" prefWidth="856.0" style="-fx-background-color: #163941;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.johnsupermarket.DeletePageController">
+    <children>
+        <Label layoutX="276.0" layoutY="65.0" text="Delete Item Page" textFill="WHITE">
+            <font>
+                <Font name="Book Antiqua Bold" size="39.0" />
+            </font>
+        </Label>
+        <Button layoutX="710.0" layoutY="566.0" onAction="#handleExit" prefHeight="33.0" prefWidth="87.0" style="-fx-background-color: red; -fx-background-radius: 50;" text="ESC" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font></Button>
+        <Button layoutX="75.0" layoutY="566.0" onAction="#GotoHome" prefHeight="33.0" prefWidth="87.0" style="-fx-background-color: #23cd31; -fx-background-radius: 50;" text="Home" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font></Button>
+        <Label layoutX="223.0" layoutY="207.0" text="Item Code" textFill="WHITE">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="OutputPanel" alignment="CENTER" layoutX="241.0" layoutY="470.0" prefHeight="56.0" prefWidth="365.0" textAlignment="CENTER" textFill="#c01818">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Label>
+
+        <TextField fx:id="itemCodeInput" layoutX="316.0" layoutY="207.0" prefHeight="25.0" prefWidth="208.0" />
+        <Button layoutX="542.0" layoutY="207.0" onAction="#handleSearchItem" prefHeight="25.0" prefWidth="74.0" style="-fx-background-radius: 50;" text="Search" textFill="#457294">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+        <Button layoutX="382.0" layoutY="565.0" onAction="#handleDeleteItem" prefHeight="33.0" prefWidth="113.0" style="-fx-background-radius: 50;" text="Delete" textFill="#e80000">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Button>
+        <Button layoutX="622.0" layoutY="566.0" onAction="#handleSaveItems" prefHeight="33.0" prefWidth="62.0" style="-fx-background-radius: 50;" text="Save" textFill="#9d00ff">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font></Button>
+
+        <TableView fx:id="itemTable" layoutX="75.0" layoutY="317.0" prefHeight="79.0" prefWidth="727.0">
+            <columns>
+                <TableColumn fx:id="codeCol" text="Code" />
+                <TableColumn fx:id="nameCol" text="Name" />
+                <TableColumn fx:id="brandCol" text="Brand" />
+                <TableColumn fx:id="priceCol" text="Price" />
+                <TableColumn fx:id="quantityCol" text="Quantity" />
+                <TableColumn fx:id="categoryCol" text="Category" />
+                <TableColumn fx:id="dateCol" text="Date" />
+                <TableColumn fx:id="thresholdCol" text="Threshold" />
+                <TableColumn fx:id="imageCol" text="Image Path" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="645.0" prefWidth="856.0" style="-fx-background-color: #163941;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.johnsupermarket.ViewinventryPageController">
+    <children>
+        <Label layoutX="294.0" layoutY="52.0" text="Inventory Page" textFill="WHITE">
+            <font><Font name="Book Antiqua Bold" size="39.0" /></font>
+        </Label>
+
+        <Button layoutX="710.0" layoutY="566.0" onAction="#handleExit" prefHeight="33.0" prefWidth="87.0" style="-fx-background-color: red; -fx-background-radius: 50;" text="ESC" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font></Button>
+        <Button layoutX="564.0" layoutY="566.0" onAction="#GotoAddPage" prefHeight="33.0" prefWidth="97.0" style="-fx-background-radius: 50;" text="Add Item" textFill="#0087cb">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font></Button>
+        <Button layoutX="64.0" layoutY="566.0" onAction="#GotoHome" prefHeight="33.0" prefWidth="87.0" style="-fx-background-color: #23cd31; -fx-background-radius: 50;" text="Home" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font></Button>
+
+        <TableView fx:id="inventoryTable" layoutX="26.0" layoutY="131.0" prefHeight="350.0" prefWidth="807.0">
+            <columns>
+                <TableColumn fx:id="colCode" text="Code" />
+                <TableColumn fx:id="colName" prefWidth="129.71422576904297" text="Name" />
+                <TableColumn fx:id="colBrand" prefWidth="79.42864990234375" text="Brand" />
+                <TableColumn fx:id="colPrice" prefWidth="71.4285888671875" text="Price" />
+                <TableColumn fx:id="colQty" prefWidth="50.28570556640625" text="Qty" />
+                <TableColumn fx:id="colCategory" prefWidth="85.14291381835938" text="Category" />
+                <TableColumn fx:id="colDate" prefWidth="93.7142333984375" text="Date" />
+                <TableColumn fx:id="colThreshold" prefWidth="78.857177734375" text="Threshold" />
+                <TableColumn fx:id="colImage" prefWidth="133.714111328125" text="Image" />
+            </columns>
+        </TableView>
+
+        <Label layoutX="64.0" layoutY="510.0" text="Total Item Count : " textFill="WHITE">
+            <font><Font size="16.0" /></font>
+        </Label>
+        <Label layoutX="436.0" layoutY="510.0" text="Total Value of Inventory :  Rs." textFill="WHITE">
+            <font><Font size="16.0" /></font>
+        </Label>
+
+        <TextField fx:id="TotalItemID" editable="false" layoutX="196.0" layoutY="508.0" prefHeight="25.0" prefWidth="123.0" />
+        <TextField fx:id="TotalValueID" editable="false" layoutX="643.0" layoutY="508.0" prefHeight="25.0" prefWidth="170.0" />
+    </children>
+</AnchorPane>
